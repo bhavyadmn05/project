@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Progress</title>
+    <link rel="stylesheet" href="styles9.css">
+    <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+    <h1>User Progress</h1>
+
+    <div class="progress-section">
+        <h2>Watched Content</h2>
+        <table id="watchedContentTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date Watched</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="progress-section">
+        <h2>Quiz Results</h2>
+        <table id="quizResultsTable">
+            <thead>
+                <tr>
+                    <th>Quiz ID</th>
+                    <th>Score</th>
+                    <th>Date Taken</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script>
+        // Store the selected language in a cookie
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+    
+        // Retrieve the stored cookie value
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    
+        // Detect language selection change in Google Translate
+        function observeTranslateWidget() {
+            const iframe = document.querySelector("iframe.goog-te-banner-frame");
+            if (iframe) {
+                const langDropdown = iframe.contentWindow.document.querySelector(".goog-te-combo");
+                if (langDropdown) {
+                    langDropdown.addEventListener("change", function () {
+                        setCookie('googtrans', langDropdown.value, 7); // Store selected language in cookie
+                    });
+                }
+            }
+        }
+    
+        // Apply previously selected language on page load
+        function applyPreviousTranslation() {
+            const storedLang = getCookie('googtrans');
+            if (storedLang) {
+                document.querySelector("#google_translate_element select").value = storedLang;
+                const event = new Event('change');
+                document.querySelector("#google_translate_element select").dispatchEvent(event);
+            }
+        }
+    
+        // Observe for changes and reapply translation
+        window.onload = function () {
+            applyPreviousTranslation();
+            setTimeout(observeTranslateWidget, 2000); // Wait for iframe to load
+        };
+    </script>
+    
+    <script>
+        const USER_ID = 1; // Replace with dynamic user ID as needed
+
+        async function loadWatchedContent() {
+            const response = await fetch(`/user/${USER_ID}/watched-content`);
+            const contentData = await response.json();
+            const contentTableBody = document.getElementById('watchedContentTable').querySelector('tbody');
+            contentTableBody.innerHTML = '';
+            contentData.forEach(item => {
+                const row = `<tr>
+                    <td>${item.title}</td>
+                    <td>${item.description}</td>
+                    <td>${new Date(item.watched_on).toLocaleDateString()}</td>
+                </tr>`;
+                contentTableBody.innerHTML += row;
+            });
+        }
+
+        async function loadQuizResults() {
+            const response = await fetch(`/user/${USER_ID}/quiz-results`);
+            const quizData = await response.json();
+            const quizTableBody = document.getElementById('quizResultsTable').querySelector('tbody');
+            quizTableBody.innerHTML = '';
+            quizData.forEach(result => {
+                const row = `<tr>
+                    <td>${result.quiz_id}</td>
+                    <td>${result.score}</td>
+                    <td>${new Date(result.date_taken).toLocaleDateString()}</td>
+                </tr>`;
+                quizTableBody.innerHTML += row;
+            });
+        }
+
+        loadWatchedContent();
+        loadQuizResults();
+    </script>
+</body>
+</html>

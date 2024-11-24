@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Match background gradient of the container */
+    color: #fff;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Dark gradient background for the container */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background 0.5s ease;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    background-color: #3498db; /* Complementary blue */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #2980b9; /* Slightly darker blue */
+    transform: scale(1.05);
+}
+
+.faq-question h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.toggle-icon {
+    font-size: 1.6em;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.faq-question:hover .toggle-icon {
+    transform: rotate(45deg); /* Dynamic effect when hovered */
+}
+
+.faq-answer {
+    padding: 20px;
+    display: none;
+    font-size: 1.1em;
+    background-color: #2c3e50; /* Dark background for answers */
+    border-left: 5px solid #3498db;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-answer p {
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.faq-item.active .faq-answer {
+    display: block; /* Show the answer when the question is active */
+}
+
+.faq-item.active .faq-question {
+    background-color: #2980b9; /* Darken the background color when active */
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(45deg); /* Rotate the icon when the answer is shown */
+}
+
+.faq-item.active .faq-answer {
+    background-color: #34495e; /* Darker shade when active */
+}
+
+.faq-container:hover {
+    background: linear-gradient(135deg, #1a252f, #2c3e50); /* Slightly darker gradient when hovered */
+}

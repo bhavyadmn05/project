@@ -1,0 +1,13 @@
+axios.post('http://localhost/saveResult.php', {
+    user_name: 'Guest', // Replace with actual user input if available
+    topic: data[0]?.topic || 'General', // Replace 'General' with a default topic if needed
+    marks: correctAnswers,
+    percentage: ((correctAnswers / data.length) * 100).toFixed(2),
+    time_taken: time,
+})
+.then((response) => {
+    console.log(response.data);
+})
+.catch((error) => {
+    console.error('Error saving results:', error);
+});

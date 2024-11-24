@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - E-Learning</title>
+    <link rel="stylesheet" href="faq.css">
+    <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav style="position: fixed; top: 0; right: 0; width: 100%; background-color: #202122; padding: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: right; margin-right: 20px;">
+            <button onclick="location.href='index2.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #007bff; color: #f7f3f3; border: none; border-radius: 5px;">
+                Home
+            </button>
+        </div>
+    </nav>
+
+    <div class="faq-container" style="margin-top: 60px;"> <!-- Add margin to prevent overlap -->
+        <h1>Frequently Asked Questions</h1>
+        
+        <!-- Existing FAQ Content -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(0)">
+                <h2>How do I create an account on your website?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>To create an account, click on the “Sign Up” button on the homepage, fill in the necessary details such as your name, email, and password, and then follow the instructions to complete the registration process.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(1)">
+                <h2>Are the courses free?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, the courses are completely free, and you will also receive a free certificate upon completion.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(2)">
+                <h2>Can I access the course materials on mobile devices?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes! Our website is fully responsive, so you can access all course materials on your mobile phone, tablet, or computer.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(3)">
+                <h2>How long do I have access to the course content?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>You will have lifetime access to the course content once you enroll. This means you can revisit the materials anytime after completing the course.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(4)">
+                <h2>What should I do if I encounter technical issues during a course?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>If you face any technical issues, you can contact our support team by emailing support@elearning.com or using the live chat feature on the website.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(5)">
+                <h2>Are there any prerequisites for taking a course?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Some advanced courses may require prior knowledge or experience. Course prerequisites (if any) will be mentioned in the course. Beginner-level courses do not require any prior knowledge.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(6)">
+                <h2>How are the courses structured?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Each course is divided into modules with video lectures, quizzes , challenges , leaderboard and completion certificate. You can proceed at your own pace and track your progress and start from where you left.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(7)">
+                <h2>What courses does your website offer?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>We offer a wide range of courses including Basic computer skills , email and communication, Cyber security , E-Commerce and many more. Visit our courses page to explore all available options.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(8)">
+                <h2>Can I start if I am a beginner?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes! Our platform offers courses for all levels, including beginner-friendly courses. Each course has clear instructions, and you can progress at your own pace.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(9)">
+                <h2>Are there advanced-level courses?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we offer advanced-level courses for professionals looking to deepen their knowledge in various fields. Explore our course catalog to find courses that suit your expertise level.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(10)">
+                <h2>How do I access the course content?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Once you sign-up, you can access the content via your homepage. The content is available as video lectures and quizzes, all of which can be accessed at any time.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(11)">
+                <h2>How can I access the quizzes?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Quizzes are available after completing certain lessons or modules. You can access them through the homepage, and they will test your understanding of the content.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(12)">
+                <h2>What are the steps to complete a course?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>The steps to complete a course are as follows:
+                    <ul>
+                        <li>Access the course content.</li>
+                        <li>Watch and Understand the vedio lectures.</li>
+                        <li>Take the quizzes to test your knowledge.</li>
+                        <li>Once you finish, you'll be awarded a certificate.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(13)">
+                <h2>How do I receive a certificate?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Upon successful completion of a course, including all assignments and quizzes, you will receive a digital certificate, which can be downloaded and shared on your resume or LinkedIn profile.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(14)">
+                <h2>Is there a leaderboard to track my progress?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we have a leaderboard where you can compare your progress with other learners. Your rank is determined by your quiz scores, course completions, and overall participation.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(15)">
+                <h2>How can I track my progress?</h2>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>You can track your progress via the course dashboard. It shows your completed and pending lessons , what amount of progress you made in every lesson and time left to complete that course.</p>
+            </div>
+        </div>
+    </div>
+       
+    
+    </div>
+    <script>
+        // Store the selected language in a cookie
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+    
+        // Retrieve the stored cookie value
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    
+        // Detect language selection change in Google Translate
+        function observeTranslateWidget() {
+            const iframe = document.querySelector("iframe.goog-te-banner-frame");
+            if (iframe) {
+                const langDropdown = iframe.contentWindow.document.querySelector(".goog-te-combo");
+                if (langDropdown) {
+                    langDropdown.addEventListener("change", function () {
+                        setCookie('googtrans', langDropdown.value, 7); // Store selected language in cookie
+                    });
+                }
+            }
+        }
+    
+        // Apply previously selected language on page load
+        function applyPreviousTranslation() {
+            const storedLang = getCookie('googtrans');
+            if (storedLang) {
+                document.querySelector("#google_translate_element select").value = storedLang;
+                const event = new Event('change');
+                document.querySelector("#google_translate_element select").dispatchEvent(event);
+            }
+        }
+    
+        // Observe for changes and reapply translation
+        window.onload = function () {
+            applyPreviousTranslation();
+            setTimeout(observeTranslateWidget, 2000); // Wait for iframe to load
+        };
+    </script>
+    
+    
+    <script src="faq.js"></script>
+</body>
+</html>
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

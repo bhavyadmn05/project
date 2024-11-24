@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav style="position: fixed; top: 0; right: 0; width: 100%; background-color: #202122; padding: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: right; margin-right: 20px;">
+            <button onclick="location.href='index2.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #007bff; color: #f7f3f3; border: none; border-radius: 5px;">
+                Home
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <section id="contact" style="margin-top: 60px;">
+        <h1>Got Any Questions?</h1>
+        <p>Use the form below to get in touch us !</p>
+        <form action="fb.php" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Question</button>
+        </form>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support">
+        <h2>Support</h2>
+        <p>Email: support@randommail.com</p>
+        <p>Phone: +987-654-3210</p>
+    </section>
+    
+</body>
+</html>

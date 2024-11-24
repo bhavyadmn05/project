@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.9; /* Adjust transparency for watermark effect */
+  }
+  
+  header {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Slightly larger header */
+    text-transform: uppercase; /* Capitalize the text */
+    text-decoration: underline; /* Underline the text */
+    color: #FFD700; /* Gold color for the header title */
+  }
+  
+  main {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.9); /* Light semi-transparent background for content readability */
+    border-radius: 10px;
+    margin: 1rem;
+  }
+  
+  .hardware-section {
+    margin-bottom: 2rem;
+    overflow: auto; /* Ensures proper layout when floating images */
+  }
+  
+  .hardware-section h2 {
+    text-transform: uppercase; /* Capitalize the heading text */
+    text-decoration: underline; /* Underline the heading text */
+    color: #0066cc; /* Blue color for section headings */
+    font-size: 1.8rem; /* Slightly larger font size */
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-image {
+    width: 200px; /* Set consistent width */
+    height: auto; /* Maintain aspect ratio */
+    float: right; /* Floats the image to the right */
+    margin-left: 1rem; /* Adds space between the image and the text */
+    margin-bottom: 1rem; /* Adds space below the image */
+    border-radius: 10px; /* Optional: Rounds the image corners */
+    object-fit: cover; /* Ensures content fits within the set width */
+    border: 1px solid #ccc; /* Optional: Adds a subtle border around the image */
+  }
+  
+  hr {
+    border: 2px solid #ff6600; /* Bold orange color for the line */
+    border-radius: 5px; /* Slightly rounded edges */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

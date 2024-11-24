@@ -1,0 +1,57 @@
+/* Global Font Styling */
+body {
+    background-image: url("_Empowering\ you\ to\ navigate\ the\ digital\ world\ with\ confidence.png");
+   
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(45deg, #83C5BE, #2575fc);
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color:white;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color:#66A6AD;
+    border: none;
+    border-radius: 8px;
+}
+
+.dropdown-menu .dropdown-item {
+    color:#ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #5E9CA3;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color:#5E9CA3;
+    transform: translateX(5px);
+}
+/* Center H1 Heading */
+h1 {
+    position:absolute;
+    top: 18%;
+    left: 50%;
+    font-size: 3rem;
+    color: #d8dfe7; /* Dark grey for good contrast */
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
