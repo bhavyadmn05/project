@@ -1,0 +1,237 @@
+/* General Reset and Base Styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #000;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 20px;
+  background: linear-gradient(135deg, #d8e2dc, #ffccd5);
+}
+
+/* Card Styles */
+.App .card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.App .card:hover {
+  transform: scale(1.02);
+}
+
+/* Black Text for Start Button and Question Text */
+h1, .question-container {
+  font-size: 2rem;
+  color: #000; /* Ensures text color is black */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Option Styling */
+label.radio {
+  display: block;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 1.1rem;
+  color: #495057;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+label.radio:hover {
+  background-color: #e9f5ff;
+}
+
+label.radio input[type="radio"] {
+  display: none;
+}
+
+/* Styling for Selected Option */
+label.radio.selected {
+  background-color: #74c0fc;
+  color: #fff;
+  border-color: #74c0fc;
+}
+
+/* Button Styling */
+button {
+  background-color: #74c0fc;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  width: 100%; /* Ensure the button takes full width */
+}
+
+button:hover {
+  background-color: #4dabf7;
+}
+
+button:active {
+  background-color: #3498db;
+  transform: scale(0.98); /* Slight scaling effect on click */
+}
+
+/* Card and Content Styling */
+.card-content .question-text {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Styling for Radio Options */
+.radio-option {
+  background-color: #f1f1f1;
+  border: 2px solid transparent;
+  padding: 12px;
+  border-radius: 8px;
+  color: #495057;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.radio-option:hover {
+  background-color: #e9f5ff;
+}
+
+.radio-option.selected {
+  background-color: #74c0fc;
+  color: #ffffff;
+  border-color: #74c0fc;
+}
+
+.radio-option input[type="radio"] {
+  display: none;
+}
+
+/* Error Message */
+.error-message {
+  color: #e63946;
+  margin-top: 10px;
+}
+
+/* Next Button Styling */
+.next-button {
+  background-color: #74c0fc;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover {
+  background-color: #4dabf7;
+}
+
+.next-button:active {
+  background-color: #3498db;
+  transform: scale(0.98);
+}
+
+/* Button to View Leaderboard */
+.view-leaderboard-btn {
+  margin-left: 40px;
+  background-color: #3498db; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s, transform 0.2s ease, box-shadow 0.3s;
+  margin-top: 20px; /* Space between the button and other content */
+  display: inline-block; /* Allow the button to sit next to other elements if needed */
+}
+
+.view-leaderboard-btn:hover {
+  background-color: #2980b9; /* Darker blue */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.view-leaderboard-btn:active {
+  background-color: #1d5a8c; /* Even darker blue on click */
+  transform: translateY(0); /* Reset the lift effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Normal shadow on click */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .card {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h1, .question-container {
+    font-size: 1.6rem;
+  }
+
+  button {
+    padding: 10px 18px;
+  }
+
+  .view-leaderboard-btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+/* Topic Button Styling */
+.App .topic-button {
+  background-color: #74c0fc;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px; /* Add space between each button */
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.App .topic-button:hover {
+  background-color: #4dabf7;
+}
