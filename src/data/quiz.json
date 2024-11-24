@@ -1,0 +1,667 @@
+{
+  "topics": {
+    "Computer Hardware": [
+      {
+        "question": "What is the primary function of the motherboard in a computer?",
+        "choices": ["Store data", "Connect all components", "Provide power", "Control peripherals"],
+        "answer": "Connect all components"
+      },
+      {
+        "question": "Which part of the computer processes all the data and instructions?",
+        "choices": ["RAM", "Hard Drive", "CPU", "GPU"],
+        "answer": "CPU"
+      },
+      {
+        "question": "What does SSD stand for?",
+        "choices": ["Secure Storage Device", "Solid State Drive", "Static Storage Device", "Simple System Drive"],
+        "answer": "Solid State Drive"
+      },
+      {
+        "question": "What type of device is a printer classified as?",
+        "choices": ["Input", "Output", "Storage", "Processing"],
+        "answer": "Output"
+      }
+      
+    ],
+    "Operating System": [
+      {
+        "question": "What is the role of an operating system?",
+        "choices": ["Manage hardware and software", "Design applications", "Store user data", "Monitor internet connections"],
+        "answer": "Manage hardware and software"
+      },
+      {
+        "question": "Which operating system is developed by Microsoft?",
+        "choices": ["Windows", "Linux", "macOS", "Android"],
+        "answer": "Windows"
+      },
+      {
+        "question": "What does GUI stand for?",
+        "choices": ["General User Integration", "Graphical User Interface", "Global User Interface", "General Unit Integration"],
+        "answer": "Graphical User Interface"
+      },
+      {
+        "question": "Which of these is an open-source operating system?",
+        "choices": ["Windows", "macOS", "Linux", "iOS"],
+        "answer": "Linux"
+      },
+      {
+        "question": "Which operating system is most commonly used for mobile devices?",
+        "choices": ["Windows", "Linux", "Android", "Ubuntu"],
+        "answer": "Android"
+      },
+      {
+        "question": "Which OS is known for its security and reliability on servers?",
+        "choices": ["Windows", "Linux", "macOS", "Chrome OS"],
+        "answer": "Linux"
+      },
+      {
+        "question": "What is the purpose of a task manager in an operating system?",
+        "choices": ["Manage running applications and processes", "Store data", "Design software", "Organize files"],
+        "answer": "Manage running applications and processes"
+      },
+      {
+        "question": "Which OS feature allows running multiple programs at the same time?",
+        "choices": ["File system", "Multitasking", "Driver management", "Virtualization"],
+        "answer": "Multitasking"
+      },
+      {
+        "question": "What is the core part of an operating system called?",
+        "choices": ["Shell", "Kernel", "Driver", "Interface"],
+        "answer": "Kernel"
+      },
+      {
+        "question": "Which of these is not an operating system?",
+        "choices": ["Ubuntu", "Firefox", "Windows", "Android"],
+        "answer": "Firefox"
+      }
+    ],
+    "File Management": [
+      {
+        "question": "What is the function of a file explorer?",
+        "choices": ["Access files and folders", "Run applications", "Edit images", "Browse the internet"],
+        "answer": "Access files and folders"
+      },
+      {
+        "question": "Which of these file extensions is used for spreadsheets?",
+        "choices": [".docx", ".xlsx", ".pptx", ".png"],
+        "answer": ".xlsx"
+      },
+      {
+        "question": "How can you create a new folder on most operating systems?",
+        "choices": ["Double-click the desktop", "Right-click and choose 'New Folder'", "Press Ctrl + Z", "Drag and drop a file"],
+        "answer": "Right-click and choose 'New Folder'"
+      },
+      {
+        "question": "What is a shortcut in file management?",
+        "choices": ["A duplicate of a file", "A link to a file or folder", "A compressed file", "A deleted file"],
+        "answer": "A link to a file or folder"
+      },
+      {
+        "question": "What is a file extension?",
+        "choices": ["A part of a filename that indicates the file type", "A backup copy of a file", "An encrypted file", "A large file"],
+        "answer": "A part of a filename that indicates the file type"
+      },
+      {
+        "question": "How do you permanently delete a file on Windows?",
+        "choices": ["Move to Recycle Bin", "Press Shift + Delete", "Right-click and choose 'Copy'", "Drag to another folder"],
+        "answer": "Press Shift + Delete"
+      },
+      {
+        "question": "Which file type is used for compressed files?",
+        "choices": [".zip", ".mp4", ".txt", ".exe"],
+        "answer": ".zip"
+      },
+      {
+        "question": "What happens when you empty the Recycle Bin?",
+        "choices": ["All files are deleted permanently", "All files are restored", "Files are backed up", "Files are moved to another folder"],
+        "answer": "All files are deleted permanently"
+      },
+      {
+        "question": "What is the purpose of a backup?",
+        "choices": ["To restore lost data", "To delete old files", "To compress files", "To rename files"],
+        "answer": "To restore lost data"
+      },
+      {
+        "question": "What is a common way to share large files?",
+        "choices": ["Emailing them directly", "Using cloud storage services", "Compressing and uploading to a file-sharing service", "Printing them"],
+        "answer": "Compressing and uploading to a file-sharing service"
+      }
+    ],
+    "Navigating the Internet and Safe Web Browsing": [
+      {
+        "question": "What is the purpose of a web browser?",
+        "choices": ["To write emails", "To browse the internet", "To edit documents", "To store files"],
+        "answer": "To browse the internet"
+      },
+      {
+        "question": "What is a URL?",
+        "choices": ["A type of computer virus", "A unique address for a web page", "An encrypted file", "A shortcut for a file"],
+        "answer": "A unique address for a web page"
+      },
+      {
+        "question": "Which of these is a secure web address?",
+        "choices": ["http://example.com", "https://example.com", "www.example.com", "ftp://example.com"],
+        "answer": "https://example.com"
+      },
+      {
+        "question": "What should you avoid clicking while browsing the internet?",
+        "choices": ["Links from trusted sources", "Pop-up ads and unknown links", "Bookmarks", "Saved links"],
+        "answer": "Pop-up ads and unknown links"
+      },
+      {
+        "question": "What is private browsing mode used for?",
+        "choices": ["To prevent tracking of browsing history", "To save passwords automatically", "To disable internet access", "To block ads"],
+        "answer": "To prevent tracking of browsing history"
+      },
+      {
+        "question": "What does a padlock icon in the browser's address bar indicate?",
+        "choices": ["The website is secure", "The page is bookmarked", "The website is blocked", "The page is under maintenance"],
+        "answer": "The website is secure"
+      },
+      {
+        "question": "What is the best way to recognize a phishing website?",
+        "choices": ["Unusual URL or spelling errors", "Bright colors", "No images", "Slow loading speed"],
+        "answer": "Unusual URL or spelling errors"
+      },
+      {
+        "question": "What is a search engine used for?",
+        "choices": ["Finding websites and information online", "Hosting web pages", "Protecting your computer from viruses", "Editing documents"],
+        "answer": "Finding websites and information online"
+      },
+      {
+        "question": "What should you do if you encounter an untrustworthy website?",
+        "choices": ["Exit the website immediately", "Enter your personal details", "Bookmark the page", "Download files from it"],
+        "answer": "Exit the website immediately"
+      },
+      {
+        "question": "How can you block unwanted ads while browsing?",
+        "choices": ["Install an ad blocker", "Restart the computer", "Clear browser cache", "Disable cookies"],
+        "answer": "Install an ad blocker"
+      }
+    ],
+    "Identifying Reliable Sources of Information": [
+      {
+        "question": "What is a credible source of information?",
+        "choices": ["A peer-reviewed journal", "A social media post", "An anonymous blog", "A random website"],
+        "answer": "A peer-reviewed journal"
+      },
+      {
+        "question": "Which of these websites is generally considered reliable?",
+        "choices": ["Wikipedia", "Government and educational sites", "Forums", "Random blogs"],
+        "answer": "Government and educational sites"
+      },
+      {
+        "question": "What should you check when evaluating a source's credibility?",
+        "choices": ["Date of publication and author's credentials", "Number of images", "Popularity on social media", "Amount of advertisements"],
+        "answer": "Date of publication and author's credentials"
+      },
+      {
+        "question": "Why is bias in a source a concern?",
+        "choices": ["It can influence accuracy and reliability", "It makes the source entertaining", "It increases the source's length", "It ensures technical correctness"],
+        "answer": "It can influence accuracy and reliability"
+      },
+      {
+        "question": "What does the term 'peer-reviewed' mean?",
+        "choices": ["Reviewed by experts in the field", "Reviewed by social media users", "Reviewed by the public", "Published on the internet"],
+        "answer": "Reviewed by experts in the field"
+      },
+      {
+        "question": "Which URL domain is generally considered trustworthy?",
+        "choices": [".com", ".org", ".gov", ".xyz"],
+        "answer": ".gov"
+      },
+      {
+        "question": "What is a red flag for unreliable sources?",
+        "choices": ["Lack of cited references", "Detailed content", "Clear writing style", "Author's name visible"],
+        "answer": "Lack of cited references"
+      },
+      {
+        "question": "Why is checking multiple sources important?",
+        "choices": ["To verify accuracy", "To increase reading time", "To find opinions", "To locate advertisements"],
+        "answer": "To verify accuracy"
+      },
+      {
+        "question": "Which of these is not a reliable source?",
+        "choices": ["News from major publications", "Scientific studies", "Clickbait articles", "Educational websites"],
+        "answer": "Clickbait articles"
+      },
+      {
+        "question": "What is fact-checking?",
+        "choices": ["Verifying the information's accuracy", "Reading quickly", "Writing a report", "Ignoring the content"],
+        "answer": "Verifying the information's accuracy"
+      }
+    ],
+    "Email and Online Communication": [
+      {
+        "question": "What is an email address composed of?",
+        "choices": ["Username, @ symbol, domain", "Name, location, website", "Website name and password", "Random characters"],
+        "answer": "Username, @ symbol, domain"
+      },
+      {
+        "question": "What does 'CC' stand for in email?",
+        "choices": ["Carbon Copy", "Contact Contact", "Common Copy", "Central Communication"],
+        "answer": "Carbon Copy"
+      },
+      {
+        "question": "What is spam in the context of email?",
+        "choices": ["Unwanted or irrelevant emails", "A type of food", "Encrypted messages", "Emails with large attachments"],
+        "answer": "Unwanted or irrelevant emails"
+      },
+      {
+        "question": "What does the 'Reply All' option do?",
+        "choices": ["Sends your reply to everyone in the email thread", "Deletes the email", "Forwards the email", "Sends your reply to the sender only"],
+        "answer": "Sends your reply to everyone in the email thread"
+      },
+      {
+        "question": "Which of the following is an example of a secure email practice?",
+        "choices": ["Using a strong password", "Sharing your password", "Clicking on unknown links", "Ignoring software updates"],
+        "answer": "Using a strong password"
+      },
+      {
+        "question": "What is the purpose of an email signature?",
+        "choices": ["To provide your contact information", "To add attachments", "To format the email", "To delete the email"],
+        "answer": "To provide your contact information"
+      },
+      {
+        "question": "What should you do if you receive an email from an unknown sender?",
+        "choices": ["Open it immediately", "Click on all links", "Delete or mark it as spam", "Reply with your personal details"],
+        "answer": "Delete or mark it as spam"
+      },
+      {
+        "question": "What is the purpose of a draft in email?",
+        "choices": ["To save an unfinished email", "To delete an email", "To archive an email", "To forward an email"],
+        "answer": "To save an unfinished email"
+      },
+      {
+        "question": "What is a phishing email?",
+        "choices": ["An email designed to steal personal information", "A promotional email", "A technical newsletter", "An encrypted email"],
+        "answer": "An email designed to steal personal information"
+      },
+      {
+        "question": "What does BCC stand for in email?",
+        "choices": ["Blind Carbon Copy", "Backup Carbon Copy", "Basic Contact Copy", "Best Contact Copy"],
+        "answer": "Blind Carbon Copy"
+      }
+    ],
+    "Writing Professional Emails, Attaching Files, and Organizing Inbox": [
+      {
+        "question": "What should be included in the subject line of a professional email?",
+        "choices": ["A brief and clear summary of the email content", "Unrelated emojis", "A single word", "Nothing"],
+        "answer": "A brief and clear summary of the email content"
+      },
+      {
+        "question": "Why is it important to use a professional email address?",
+        "choices": ["It builds credibility", "It allows anonymous emails", "It sends emails faster", "It enables encryption"],
+        "answer": "It builds credibility"
+      },
+      {
+        "question": "How do you attach a file to an email?",
+        "choices": ["Use the attachment option in the email client", "Paste it into the email body", "Type the file name", "Use the reply function"],
+        "answer": "Use the attachment option in the email client"
+      },
+      {
+        "question": "What is a professional way to close an email?",
+        "choices": ["Include a polite sign-off like 'Best regards'", "Leave it blank", "Use casual language", "Include only your name"],
+        "answer": "Include a polite sign-off like 'Best regards'"
+      },
+      {
+        "question": "Why should large attachments be avoided in emails?",
+        "choices": ["They may not be delivered successfully", "They are not secure", "They can't be downloaded", "They make the email invisible"],
+        "answer": "They may not be delivered successfully"
+      },
+      {
+        "question": "What is the purpose of email folders or labels?",
+        "choices": ["Organize emails for easy access", "Delete emails automatically", "Send bulk emails", "Spam emails"],
+        "answer": "Organize emails for easy access"
+      },
+      {
+        "question": "What is the correct way to write a professional email greeting?",
+        "choices": ["Dear [Name],", "Hey there!", "Yo!", "Hiya!"],
+        "answer": "Dear [Name],"
+      },
+      {
+        "question": "What should you do before sending an email?",
+        "choices": ["Proofread it", "Leave it unfinished", "Attach random files", "Ignore the subject line"],
+        "answer": "Proofread it"
+      },
+      {
+        "question": "What is an email signature used for?",
+        "choices": ["Provide your contact details", "Include the entire email", "Attach all files", "Organize emails"],
+        "answer": "Provide your contact details"
+      },
+      {
+        "question": "Why should you avoid 'Reply All' unnecessarily?",
+        "choices": ["It can clutter inboxes unnecessarily", "It encrypts the email", "It sends the email to spam", "It deletes the original email"],
+        "answer": "It can clutter inboxes unnecessarily"
+      }
+    ],
+    
+      "Basics of Word Processing, Spreadsheets, and Presentation Software": [
+        {
+          "question": "Which of the following is a popular word processing software?",
+          "choices": ["Microsoft Word", "Excel", "PowerPoint", "Photoshop"],
+          "answer": "Microsoft Word"
+        },
+        {
+          "question": "What is the primary function of a spreadsheet?",
+          "choices": ["Perform calculations and analyze data", "Create slide presentations", "Edit images", "Compose emails"],
+          "answer": "Perform calculations and analyze data"
+        },
+        {
+          "question": "Which software is used for creating slide presentations?",
+          "choices": ["PowerPoint", "Word", "Excel", "Notepad"],
+          "answer": "PowerPoint"
+        },
+        {
+          "question": "In spreadsheets, what is a cell?",
+          "choices": ["A single data point in a table", "A type of formula", "A formatting tool", "A file format"],
+          "answer": "A single data point in a table"
+        },
+        {
+          "question": "What is a template in word processing?",
+          "choices": ["A pre-designed document layout", "An advanced editing tool", "A spell check feature", "A printing option"],
+          "answer": "A pre-designed document layout"
+        },
+        {
+          "question": "Which of these is an example of a spreadsheet formula?",
+          "choices": ["=SUM(A1:A10)", "=PRINT()", "=BOLD()", "=DESIGN()"],
+          "answer": "=SUM(A1:A10)"
+        },
+        {
+          "question": "What does 'slide transition' refer to in presentation software?",
+          "choices": ["Visual effects between slides", "Background colors", "Text formatting", "Font styles"],
+          "answer": "Visual effects between slides"
+        },
+        {
+          "question": "What is the function of the 'Track Changes' feature in word processing?",
+          "choices": ["Monitor edits made to the document", "Adjust the font size", "Insert tables", "Print the document"],
+          "answer": "Monitor edits made to the document"
+        },
+        {
+          "question": "Which tool is used to create charts in spreadsheets?",
+          "choices": ["Insert Chart", "Font Size", "Page Layout", "Review"],
+          "answer": "Insert Chart"
+        },
+        {
+          "question": "What is the purpose of a slide master in presentation software?",
+          "choices": ["Apply consistent formatting to all slides", "Add animations", "Edit individual slides", "Check spelling"],
+          "answer": "Apply consistent formatting to all slides"
+        }
+      ],
+        "Using Cloud Storage Services Like Google Drive and Dropbox": [
+          {
+            "question": "What is the main purpose of cloud storage?",
+            "choices": ["Store files online for easy access", "Edit files offline", "Create graphic designs", "Format hard drives"],
+            "answer": "Store files online for easy access"
+          },
+          {
+            "question": "Which of these is an example of a cloud storage service?",
+            "choices": ["Google Drive", "Microsoft Word", "Excel", "PowerPoint"],
+            "answer": "Google Drive"
+          },
+          {
+            "question": "What does 'syncing' mean in cloud storage?",
+            "choices": ["Updating files across devices automatically", "Deleting files permanently", "Sharing files with others", "Encrypting files"],
+            "answer": "Updating files across devices automatically"
+          },
+          {
+            "question": "How can you share a file from Google Drive?",
+            "choices": ["Generate a shareable link", "Delete the file", "Copy it to your desktop", "Rename it"],
+            "answer": "Generate a shareable link"
+          },
+          {
+            "question": "What is the advantage of using cloud storage?",
+            "choices": ["Access files from anywhere", "Limited storage space", "Files are offline only", "No security features"],
+            "answer": "Access files from anywhere"
+          },
+          {
+            "question": "What should you do before uploading sensitive files to the cloud?",
+            "choices": ["Encrypt the files", "Share them publicly", "Rename them", "Delete backups"],
+            "answer": "Encrypt the files"
+          },
+          {
+            "question": "Which of these is a paid cloud storage plan?",
+            "choices": ["Dropbox Plus", "Google Docs", "Microsoft Word", "Excel Basic"],
+            "answer": "Dropbox Plus"
+          },
+          {
+            "question": "What does 'version history' in Google Drive allow you to do?",
+            "choices": ["View and restore previous versions of a file", "Change the file format", "Delete old files", "Compress the file"],
+            "answer": "View and restore previous versions of a file"
+          },
+          {
+            "question": "Which file types can you store in cloud storage?",
+            "choices": ["Any file type", "Only documents", "Only images", "Only videos"],
+            "answer": "Any file type"
+          },
+          {
+            "question": "What happens if you delete a file in cloud storage?",
+            "choices": ["It moves to the trash or recycle bin", "It is permanently deleted", "It is shared automatically", "It is emailed to you"],
+            "answer": "It moves to the trash or recycle bin"
+          }
+        ],
+        
+          "Digital Safety and Privacy": [
+            {
+              "question": "What is the purpose of a firewall?",
+              "choices": ["Protect a network from unauthorized access", "Store files securely", "Track browsing activity", "Increase download speed"],
+              "answer": "Protect a network from unauthorized access"
+            },
+            {
+              "question": "Which of these is a secure way to browse the internet?",
+              "choices": ["Use a VPN", "Click on unknown links", "Ignore security updates", "Use public Wi-Fi without a password"],
+              "answer": "Use a VPN"
+            },
+            {
+              "question": "What is two-factor authentication?",
+              "choices": ["A second step in verifying your identity", "An alternative password", "A backup email address", "A way to encrypt files"],
+              "answer": "A second step in verifying your identity"
+            },
+            {
+              "question": "What should you do if your device is infected with malware?",
+              "choices": ["Run antivirus software", "Ignore it", "Delete all files", "Reboot without fixing"],
+              "answer": "Run antivirus software"
+            },
+            {
+              "question": "What is the best way to protect your online accounts?",
+              "choices": ["Use strong passwords and two-factor authentication", "Share your password", "Use the same password for all accounts", "Write down passwords and store them publicly"],
+              "answer": "Use strong passwords and two-factor authentication"
+            },
+            {
+              "question": "Why is it important to update your software regularly?",
+              "choices": ["To fix security vulnerabilities", "To slow down your computer", "To reset your settings", "To delete your files"],
+              "answer": "To fix security vulnerabilities"
+            },
+            {
+              "question": "Which of the following is a secure practice for managing passwords?",
+              "choices": ["Using a password manager", "Using simple, easy-to-remember passwords", "Sharing passwords with friends", "Writing passwords on paper"],
+              "answer": "Using a password manager"
+            },
+            {
+              "question": "What is phishing?",
+              "choices": ["A scam to steal sensitive information", "A type of virus", "An encrypted message", "A firewall feature"],
+              "answer": "A scam to steal sensitive information"
+            },
+            {
+              "question": "What should you check before entering personal details on a website?",
+              "choices": ["HTTPS in the URL", "The background color", "Number of ads", "Font size"],
+              "answer": "HTTPS in the URL"
+            },
+            {
+              "question": "What is an example of a strong password?",
+              "choices": ["Ab@2024#", "123456", "password", "qwerty"],
+              "answer": "Ab@2024#"
+            }
+          ],
+          
+            "Recognizing Phishing and Online Scams": [
+              {
+                "question": "What is a common sign of a phishing email?",
+                "choices": ["Request for sensitive information", "Professional grammar", "Official logos", "No links provided"],
+                "answer": "Request for sensitive information"
+              },
+              {
+                "question": "What should you do if you suspect a phishing email?",
+                "choices": ["Report it and avoid clicking on any links", "Respond to verify authenticity", "Forward it to your contacts", "Ignore it"],
+                "answer": "Report it and avoid clicking on any links"
+              },
+              {
+                "question": "Which of these is a characteristic of phishing websites?",
+                "choices": ["URL with unusual spelling or characters", "Secure HTTPS protocol", "No spelling errors", "Official branding"],
+                "answer": "URL with unusual spelling or characters"
+              },
+              {
+                "question": "What should you do if you accidentally provide information to a phishing scam?",
+                "choices": ["Change your passwords immediately", "Ignore the issue", "Delete your account", "Contact the scammer"],
+                "answer": "Change your passwords immediately"
+              },
+              {
+                "question": "Which of these is NOT a phishing technique?",
+                "choices": ["Sending fake emails", "Creating fake websites", "Asking for help in person", "Using fake pop-ups"],
+                "answer": "Asking for help in person"
+              },
+              {
+                "question": "What is spear phishing?",
+                "choices": ["A targeted phishing attack", "A scam targeting banks", "A general phishing scam", "A form of malware"],
+                "answer": "A targeted phishing attack"
+              },
+              {
+                "question": "Why should you hover over links in emails before clicking them?",
+                "choices": ["To check the actual destination URL", "To activate the link", "To save the link", "To mark it as important"],
+                "answer": "To check the actual destination URL"
+              },
+              {
+                "question": "What does a phishing text message often include?",
+                "choices": ["Urgent language or threats", "A greeting", "General information", "Technical terms"],
+                "answer": "Urgent language or threats"
+              },
+              {
+                "question": "What is vishing?",
+                "choices": ["Voice phishing over phone calls", "Email phishing", "Fake websites", "Encrypted messages"],
+                "answer": "Voice phishing over phone calls"
+              },
+              {
+                "question": "How can you protect yourself from phishing scams?",
+                "choices": ["Verify requests from trusted sources", "Ignore all emails", "Click on every link", "Share your details freely"],
+                "answer": "Verify requests from trusted sources"
+              }
+            ],
+            
+              "Creating Strong Passwords and Using Two-Factor Authentication": [
+                {
+                  "question": "What is the recommended length for a strong password?",
+                  "choices": ["At least 12 characters", "6 characters", "8 characters", "4 characters"],
+                  "answer": "At least 12 characters"
+                },
+                {
+                  "question": "Which of the following should NOT be included in a strong password?",
+                  "choices": ["Your name", "A mix of letters, numbers, and symbols", "Randomized characters", "Upper and lowercase letters"],
+                  "answer": "Your name"
+                },
+                {
+                  "question": "What is two-factor authentication (2FA)?",
+                  "choices": ["A security measure requiring two forms of verification", "A type of password reset", "An encryption tool", "A way to bypass security"],
+                  "answer": "A security measure requiring two forms of verification"
+                },
+                {
+                  "question": "What is an example of a two-factor authentication method?",
+                  "choices": ["A text message code", "Only a password", "Biometric authentication", "Both text code and biometrics"],
+                  "answer": "Both text code and biometrics"
+                },
+                {
+                  "question": "Why should you avoid reusing passwords across different accounts?",
+                  "choices": ["To reduce the risk if one password is compromised", "To make passwords easy to remember", "To save time", "To improve system performance"],
+                  "answer": "To reduce the risk if one password is compromised"
+                },
+                {
+                  "question": "What does a password manager do?",
+                  "choices": ["Stores and generates secure passwords", "Shares your passwords", "Creates phishing links", "Encrypts files"],
+                  "answer": "Stores and generates secure passwords"
+                },
+                {
+                  "question": "What is a passphrase?",
+                  "choices": ["A long and memorable sequence of words", "A single word password", "A random sequence of numbers", "A password hint"],
+                  "answer": "A long and memorable sequence of words"
+                },
+                {
+                  "question": "How often should you update your passwords?",
+                  "choices": ["Regularly or after a security breach", "Never", "Once a year", "Only when prompted by a service"],
+                  "answer": "Regularly or after a security breach"
+                },
+                {
+                  "question": "Which of these is the most secure password example?",
+                  "choices": ["@B1gRed#2024!", "12345678", "password", "qwerty123"],
+                  "answer": "@B1gRed#2024!"
+                },
+                {
+                  "question": "What should you do if a service you use experiences a data breach?",
+                  "choices": ["Change your password immediately", "Ignore it", "Continue using the same password", "Delete your account"],
+                  "answer": "Change your password immediately"
+                }
+              ],
+              
+                "E-commerce and Online Payments": [
+                  {
+                    "question": "What does e-commerce stand for?",
+                    "choices": ["Electronic commerce", "Encrypted communication", "Entertainment commerce", "Email commerce"],
+                    "answer": "Electronic commerce"
+                  },
+                  {
+                    "question": "Which of these is a common online payment method?",
+                    "choices": ["Credit card", "Cash on delivery", "Barter", "Gold"],
+                    "answer": "Credit card"
+                  },
+                  {
+                    "question": "What is the purpose of an SSL certificate on a website?",
+                    "choices": ["Secure online transactions", "Store payment information", "Generate payment receipts", "Increase website speed"],
+                    "answer": "Secure online transactions"
+                  },
+                  {
+                    "question": "Which symbol in a browser indicates a secure website?",
+                    "choices": ["A padlock icon", "A green border", "A dollar sign", "A star icon"],
+                    "answer": "A padlock icon"
+                  },
+                  {
+                    "question": "What should you do before entering your payment details online?",
+                    "choices": ["Check if the website uses HTTPS", "Close your browser", "Clear your history", "Use a public Wi-Fi connection"],
+                    "answer": "Check if the website uses HTTPS"
+                  },
+                  {
+                    "question": "Which of the following is a secure way to store your payment details?",
+                    "choices": ["In a password manager", "On a sticky note", "In your email inbox", "In an unencrypted text file"],
+                    "answer": "In a password manager"
+                  },
+                  {
+                    "question": "What is a common scam in e-commerce?",
+                    "choices": ["Fake online stores", "Overnight delivery services", "Discount coupons", "Email receipts"],
+                    "answer": "Fake online stores"
+                  },
+                  {
+                    "question": "Why is it important to review your credit card statements regularly?",
+                    "choices": ["To identify unauthorized transactions", "To avoid receiving statements", "To earn cashback rewards", "To track your location history"],
+                    "answer": "To identify unauthorized transactions"
+                  },
+                  {
+                    "question": "What is the advantage of using a virtual credit card for online payments?",
+                    "choices": ["It provides a one-time-use number", "It saves the card PIN", "It is tied to only one merchant", "It offers cash discounts"],
+                    "answer": "It provides a one-time-use number"
+                  },
+                  {
+                    "question": "What should you do if you suspect fraud during an online transaction?",
+                    "choices": ["Report it to your bank or payment provider", "Complete the transaction", "Ignore it", "Retry the transaction"],
+                    "answer": "Report it to your bank or payment provider"
+                  }
+                ]
+              }
+              
+            }
+            
+          
+          
+        
+        
+      
+    
+    
+    
+  
